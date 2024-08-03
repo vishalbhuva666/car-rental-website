@@ -35,10 +35,10 @@ const skillsData = [
 const Services = () => {
   return (
     <>
-      <span id="about"></span>
-      <div className="dark:bg-black dark:text-white py-14 sm:min-h-[600px] sm:grid sm:place-items-center">
+      <span id="booking"></span>
+      <div className="dark:bg-black dark:text-white py-4 sm:min-h-[400px] sm:grid sm:place-items-center">
         <div className="container">
-          <div className="pb-12">
+          <div className="pb-4">
             <h1
               data-aos="fade-up"
               className="text-3xl font-semibold text-center sm:text-4xl font-serif"

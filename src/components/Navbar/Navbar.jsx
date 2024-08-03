@@ -11,16 +11,16 @@ export const Navlinks = [
   },
   {
     id: 2,
-    name: "CARS",
-    link: "/#cars",
+    name: "Gallery",
+    link: "/#gallery",
   },
   {
-    id: 1,
+    id: 3,
     name: "ABOUT",
     link: "/#about",
   },
   {
-    id: 1,
+    id: 4,
     name: "BOOKING",
     link: "/#booking",
   },
@@ -32,23 +32,17 @@ const Navbar = ({ theme, setTheme }) => {
     setShowMenu(!showMenu);
   };
   return (
-    <div
-      className="relative z-10 shadow-md w-full dark:bg-black dark:text-white duration-300
-    "
-    >
+    <div style={{ position: 'sticky', zIndex: 11, top: 0 }} className="relative z-10 shadow-md w-full dark:bg-black dark:text-white duration-300">
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-3xl font-bold font-serif">Car Rental</span>
+            <span className="font-bold font-serif" style={{ textWrap: 'nowrap', fontSize: '20px' }}><span style={{ color: '#EB7D1E', textWrap: 'nowrap', fontSize: '32px' }}>A</span>ADESH TRAVELS</span>
           </div>
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">
               {Navlinks.map(({ id, name, link }) => (
                 <li key={id} className="py-4">
-                  <a
-                    href={link}
-                    className=" text-lg font-medium  hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500  "
-                  >
+                  <a href={link} className=" text-lg font-medium  hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-colors duration-500">
                     {name}
                   </a>
                 </li>

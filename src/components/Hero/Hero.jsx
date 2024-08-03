@@ -25,7 +25,7 @@ const Hero = ({ theme }) => {
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
             <p data-aos="fade-up" className="text-primary text-2xl font-serif">
-              Effortless
+              <span style={{ color: '#EB7D1E', fontSize: '48px' }}>A</span>ADESH
             </p>
             <h1
               data-aos="fade-up"
@@ -35,9 +35,14 @@ const Hero = ({ theme }) => {
               Car Rental
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              veritatis explicabo quibusdam quae reprehenderit ab{" "}
+              Welcome to Aadesh Car Rental simply need a vehicle for everyday use, we have a wide range of options to meet your needs.
             </p>
+            <p data-aos="fade-up" data-aos-delay="1000">
+              Start your Family Holiday or Book corporate Tour with Aadesh Car Rental.
+              We have trained and verified drivers.
+              We are doing daily and trip basis cleaning of cars with proper sanitization.
+              We are working with all major cities of north India like Ahmedabad, Surat, Indor, Jaipur, Mumbai, Pune, and more.
+              We offer Outstation taxi bookings services, One way Cab hire services, and Corporate car rental services In Gujarat, India            </p>
             <button
               data-aos="fade-up"
               data-aos-delay="1500"
@@ -46,7 +51,7 @@ const Hero = ({ theme }) => {
               }}
               className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black"
             >
-              Get Started
+              Book Car Now
             </button>
           </div>
         </div>
