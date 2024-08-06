@@ -33,7 +33,7 @@ const Navbar = ({ theme, setTheme }) => {
   };
   return (
     <div style={{ position: 'sticky', zIndex: 11, top: 0 }} className="relative z-10 shadow-md w-full dark:bg-black dark:text-white duration-300">
-      <div className="container py-2 md:py-0">
+      <div style={{color:'#f3ecec',background:'#000'}} className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <div>
             <span className="font-bold font-serif" style={{ textWrap: 'nowrap', fontSize: '20px' }}><span style={{ color: '#EB7D1E', textWrap: 'nowrap', fontSize: '32px' }}>A</span>ADESH TRAVELS</span>
