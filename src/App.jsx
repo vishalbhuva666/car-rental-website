@@ -13,7 +13,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   // dark mode start
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
 
   const element = document.documentElement;

@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div>
             <div className="space-y-5 sm:p-8 pb-4">
-              <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold font-serif">About us</h1>
+              <h1 data-aos="fade-up" style={{ marginTop: '24px' }} className="text-3xl sm:text-4xl font-bold font-serif">About us</h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">We are a professional rajkot base taxi company</p>
               <p data-aos="fade-up">We are operating in all major cities across India.</p>
               <div className="dark:bg-black text-white dark:text-white py-3">
