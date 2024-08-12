@@ -34,12 +34,13 @@ const Footer = () => {
             </div>
           </div>
           {/* Links */}
-          <div className="grid md:pl-10 ">
-            <iframe
+          <div className="grid md:pl-10 map-container-map">
+            {/* <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.417199704107!2d71.30178577505542!3d21.84143768001917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39588d541de00f0b%3A0x29afa89113b82710!2sAmardeep%20Mandap%20Service!5e0!3m2!1sen!2sin!4v1722668261756!5m2!1sen!2sin"
               width="800"
               height="275"
-            ></iframe>
+            ></iframe> */}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.393927502113!2d70.786267!3d22.26306295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca5dbb9dce8b%3A0xb806abb2548939fb!2sMavdi%20Chowkdi%2C%20Rajkot%2C%20Gujarat%20360004!5e0!3m2!1sen!2sin!4v1723477989593!5m2!1sen!2sin" width="800" height="275" ></iframe>
           </div>
         </div>
       </section>

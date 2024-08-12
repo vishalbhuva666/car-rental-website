@@ -1,6 +1,9 @@
 import React from "react";
 import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
+import RentImage from "../../assets/Rent.jpg";
+import DriverImage from "../../assets/222.jpg";
+import RentPDF from "../../assets/adesh _price_ist.pdf";
 import { SlNote } from "react-icons/sl";
 
 const skillsData = [
@@ -9,27 +12,30 @@ const skillsData = [
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    link: RentImage,
+    description: "Find The Perfect Car For Your Rent.",
     aosDelay: "0",
+    btn: "Check Price List",
   },
   {
     name: "Fast and Safe",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    link: RentPDF,
+    description: "Car Wise Rent.",
     aosDelay: "500",
+    btn: "Download PDF",
   },
   {
     name: "Experience Drivers",
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
-    link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    link: DriverImage,
+    description: "Driver Information",
     aosDelay: "1000",
+    btn: "Driver Image",
   },
 ];
 const Services = () => {
@@ -58,10 +64,12 @@ const Services = () => {
                 <h1 className="text-2xl font-bold">{skill.name}</h1>
                 <p>{skill.description}</p>
                 <a
-                  href={skill.link}
+                  href={skill?.link}
+                  download="Rent.jpg"
+                  style={{ cursor: 'pointer' }}
                   className="inline-block text-lg font-semibold py-3 text-primary group-hover:text-black duration-300"
                 >
-                  Learn more
+                  {skill?.btn}
                 </a>
               </div>
             ))}

@@ -35,7 +35,7 @@ const Hero = ({ theme }) => {
   };
 
   const handleOk = () => {
-    window.location.href = `https://wa.me/9724289021?text=${encodeURIComponent(`Name: ${inputText}\n Date: ${inputDate}\n MobileNumber: ${mobileNumber}`)}`;
+    window.location.href = `https://wa.me/7383034600?text=${encodeURIComponent(`Name: ${inputText}\n Date: ${inputDate}\n MobileNumber: ${mobileNumber}`)}`;
     setModalVisible(false);
   };
 
